@@ -1,11 +1,9 @@
-title: processing-tint
+title: Add tint to images
 hero_image: images/banner.png
-description: processing-tint description
+description: Add tint to images
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-08-11"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Add tint to images
