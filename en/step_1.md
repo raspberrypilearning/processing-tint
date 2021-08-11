@@ -1,59 +1,35 @@
-## Introduction
+If you are adding images to your project you can use `tint()` to change the colour of the image.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Passing a colour to `tint()` lets you change the colours of any image you draw after it. The images will look like they have a light of the colour you chose shining on them. 
 
-### What you will make
+The `no_tint()` function to turn `tint()` off when you’re finished with it.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+This example adds a green `tint()` to both images. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: python
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+  tint(0, 200, 0) # Green tint
+  image(planet, 50, 50, 300, 300)
+  image(rocket, 50, 50, 100, 100) 
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
+![The output area showing a planet and rocket with both tinted](images/all-tint.png)
+
+This example adds a green `tint()` to the first image then removes it using `no_tint()` before the second image is drawn. 
+
+--- code ---
 ---
-title: Additional information for educators
+language: python
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+  tint(0, 200, 0) # Green tint
+  image(planet, 50, 50, 300, 300)
+  no_tint() # Remove tint
+  image(rocket, 50, 50, 100, 100) 
+--- /code ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![The output area showing a tinted planet and a rocket without tint](images/some-tint.png)
