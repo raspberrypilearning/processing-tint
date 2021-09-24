@@ -11,13 +11,13 @@ This example adds a green `tint()` to both images.
 language: python
 ---
 
-  tint(0, 200, 0) # Green tint
+  tint(0, 255, 0) # Green tint
+  image(rocket, 50, 50, 100, 100)
   image(planet, 50, 50, 300, 300)
-  image(rocket, 50, 50, 100, 100) 
 
 --- /code ---
 
-![The output area showing a planet and rocket with both tinted](images/all-tint.png)
+![The output area showing a rocket and planet with both tinted](images/all_tint.png)
 
 This example adds a green `tint()` to the first image then removes it using `no_tint()` before the second image is drawn. 
 
@@ -26,10 +26,10 @@ This example adds a green `tint()` to the first image then removes it using `no_
 language: python
 ---
 
-  tint(0, 200, 0) # Green tint
-  image(planet, 50, 50, 300, 300)
+  tint(0, 255, 0) # Green tint
+  image(rocket, 50, 50, 100, 100)
   no_tint() # Remove tint
-  image(rocket, 50, 50, 100, 100) 
+  image(planet, 50, 50, 300, 300)
 --- /code ---
 
-![The output area showing a tinted planet and a rocket without tint](images/some-tint.png)
+![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
