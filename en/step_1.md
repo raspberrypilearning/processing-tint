@@ -33,3 +33,4 @@ language: python
 --- /code ---
 
 ![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
+
