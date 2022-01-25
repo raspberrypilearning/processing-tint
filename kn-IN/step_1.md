@@ -24,7 +24,9 @@ This example adds a green `tint()` to the first image then removes it using `no_
 language: python
 ---
 
-  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) no_tint() # Remove tint image(planet, 50, 50, 300, 300) --- /code ---
+  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) no_tint() # Remove tint image(planet, 50, 50, 300, 300)
+
+--- /code ---
 
 ![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
 
