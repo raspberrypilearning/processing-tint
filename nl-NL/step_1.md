@@ -1,32 +1,32 @@
-If you are adding images to your project you can use `tint()` to change the colour of the image.
+Als je afbeeldingen aan je project toevoegt, kun je `tint()` gebruiken om de kleur van de afbeelding te wijzigen.
 
-Passing a colour to `tint()` lets you change the colours of any image you draw after it. The images will look like they have a light of the colour you chose shining on them.
+Door een kleur aan te geven met `tint()` kun je de kleuren wijzigen van elke afbeelding die je daarna tekent. De afbeeldingen zien eruit alsof er een licht van de door jouw gekozen kleur op schijnt.
 
-The `no_tint()` function to turn `tint()` off when you’re finished with it.
+Met de `no_tint()` functie zet je de `tint()` functie uit als je klaar bent.
 
-This example adds a green `tint()` to both images.
-
---- code ---
----
-language: python
----
-
-  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) image(planet, 50, 50, 300, 300)
-
---- /code ---
-
-![The output area showing a rocket and planet with both tinted](images/all_tint.png)
-
-This example adds a green `tint()` to the first image then removes it using `no_tint()` before the second image is drawn.
+Dit voorbeeld voegt een groene `tint()` toe aan beide afbeeldingen.
 
 --- code ---
 ---
 language: python
 ---
 
-  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) no_tint() # Remove tint image(planet, 50, 50, 300, 300)
+  tint(0, 255, 0) # Groene tint image(raket, 50, 50, 100, 100) image(planeet, 50, 50, 300, 300)
 
 --- /code ---
 
-![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
+![Het uitvoergebied met een raket en een planeet beide groen gekleurd](images/all_tint.png)
+
+Dit voorbeeld voegt een groene `tint()` toe aan de eerste afbeelding en gebruikt vervolgens `no_tint()` voordat de tweede afbeelding wordt getekend.
+
+--- code ---
+---
+language: python
+---
+
+  tint(0, 255, 0) # Groene tint image(raket, 50, 50, 100, 100) no_tint() # Verwijder tint image(planeet, 50, 50, 300, 300)
+
+--- /code ---
+
+![Het uitvoergebied met een gekleurde raket en een planeet zonder kleur](images/some_tint.png)
 
