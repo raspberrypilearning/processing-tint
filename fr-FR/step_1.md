@@ -1,32 +1,32 @@
-If you are adding images to your project you can use `tint()` to change the colour of the image.
+Si tu ajoutes des images à ton projet, tu peux utiliser `tint()` pour changer la couleur de l'image.
 
-Passing a colour to `tint()` lets you change the colours of any image you draw after it. The images will look like they have a light of the colour you chose shining on them.
+Passer une couleur à `tint()` te permet de changer les couleurs de toute image que tu dessines après. Les images auront l'air d'avoir un peu de la couleur que tu as choisie qui brille sur elles.
 
-The `no_tint()` function to turn `tint()` off when you’re finished with it.
+La fonction `no_tint()` pour désactiver `tint()` lorsque tu en as terminé.
 
-This example adds a green `tint()` to both images.
-
---- code ---
----
-language: python
----
-
-  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) image(planet, 50, 50, 300, 300)
-
---- /code ---
-
-![The output area showing a rocket and planet with both tinted](images/all_tint.png)
-
-This example adds a green `tint()` to the first image then removes it using `no_tint()` before the second image is drawn.
+Cet exemple ajoute un `tint()` vert aux deux images.
 
 --- code ---
 ---
 language: python
 ---
 
-  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) no_tint() # Remove tint image(planet, 50, 50, 300, 300)
+  tint(0, 255, 0) # Teinte verte image(rocket, 50, 50, 100, 100) image(planet, 50, 50, 300, 300)
 
 --- /code ---
 
-![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
+![La zone de sortie montrant une fusée et une planète avec les deux teintées](images/all_tint.png)
+
+Cet exemple ajoute un `tint()` vert à la première image puis le supprime en utilisant `no_tint()` avant que la deuxième image ne soit dessinée.
+
+--- code ---
+---
+language: python
+---
+
+  tint(0, 255, 0) # Teinte verte image(rocket, 50, 50, 100, 100) no_tint() # Supprimer la teinte image(planet, 50, 50, 300, 300)
+
+--- /code ---
+
+![La zone de sortie montrant une fusée teintée et une planète sans teinte](images/some_tint.png)
 
