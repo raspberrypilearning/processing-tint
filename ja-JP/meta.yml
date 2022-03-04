@@ -1,0 +1,10 @@
+---
+title: 画像に色合いを付加する
+hero_image: images/banner.png
+description: 画像に色合いを付加する
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-08-11"
+steps:
+  - title: Add tint to images
