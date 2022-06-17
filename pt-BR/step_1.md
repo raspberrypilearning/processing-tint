@@ -1,32 +1,32 @@
-If you are adding images to your project you can use `tint()` to change the colour of the image.
+Se você estiver adicionando imagens ao seu projeto, poderá usar `tint()` para alterar a cor da imagem.
 
-Passing a colour to `tint()` lets you change the colours of any image you draw after it. The images will look like they have a light of the colour you chose shining on them.
+Passar uma cor para `tint()` permite você alterar as cores de qualquer imagem desenhada depois dela. As imagens parecerão ter uma luz da cor que você escolheu brilhando nelas.
 
-The `no_tint()` function to turn `tint()` off when you’re finished with it.
+A função `no_tint()` para desativar `tint()` quando você terminar com ela.
 
-This example adds a green `tint()` to both images.
-
---- code ---
----
-language: python
----
-
-  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) image(planet, 50, 50, 300, 300)
-
---- /code ---
-
-![The output area showing a rocket and planet with both tinted](images/all_tint.png)
-
-This example adds a green `tint()` to the first image then removes it using `no_tint()` before the second image is drawn.
+Este exemplo adiciona uma `tint()` verde a ambas as imagens.
 
 --- code ---
 ---
 language: python
 ---
 
-  tint(0, 255, 0) # Green tint image(rocket, 50, 50, 100, 100) no_tint() # Remove tint image(planet, 50, 50, 300, 300)
+  tint(0, 255, 0) # Coloração verde image(foguete, 50, 50, 100, 100) image(planeta, 50, 50, 300, 300)
 
 --- /code ---
 
-![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
+![A área de saída mostrando um foguete e um planeta, ambos coloridos](images/all_tint.png)
+
+Este exemplo adiciona um `tint()` verde à primeira imagem e o remove usando `no_tint()` antes que a segunda imagem seja desenhada.
+
+--- code ---
+---
+language: python
+---
+
+  tint(0, 255, 0) # Coloração verde image(foguete, 50, 50, 100, 100) no_tint() # Remove coloração verde image(planeta, 50, 50, 300, 300)
+
+--- /code ---
+
+![A área de saída mostrando um foguete colorido e um planeta sem coloração](images/some_tint.png)
 
