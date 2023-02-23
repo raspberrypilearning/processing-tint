@@ -1,10 +1,10 @@
-If you are adding images to your project you can use `tint()` to change the colour of the image.
+Якщо ти додаєш зображення до свого проєкту, можеш використати `tint()`, щоб змінити колір зображення.
 
-Passing a colour to `tint()` lets you change the colours of any image you draw after it. The images will look like they have a light of the colour you chose shining on them.
+Встановлення кольору в `tint()` дозволяє змінювати кольори будь-якого зображення, яке буде намальоване після нього. Зображення будуть виглядати так, начебто на них падає світло обраного тобою кольору.
 
-The `no_tint()` function to turn `tint()` off when you’re finished with it.
+Функція `no_tint()` дозволяє вимкнути функцію `tint()` після завершення роботи з нею.
 
-This example adds a green `tint()` to both images.
+У цьому прикладі до обох зображень додається зелений `tint()`.
 
 --- code ---
 ---
@@ -15,9 +15,9 @@ language: python
 
 --- /code ---
 
-![The output area showing a rocket and planet with both tinted](images/all_tint.png)
+![Вихідна область із зображенням ракети і планети, які зафарбовані](images/all_tint.png)
 
-This example adds a green `tint()` to the first image then removes it using `no_tint()` before the second image is drawn.
+Цей приклад додає зелений колір `tint()` до першого зображення, а потім видаляє його, використовуючи функцію `no_tint()` перед тим, як буде намальоване друге зображення.
 
 --- code ---
 ---
@@ -28,5 +28,5 @@ language: python
 
 --- /code ---
 
-![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
+![Область виводу із зображенням ракети з нанесеним відтінком та планети без відтінку](images/some_tint.png)
 
