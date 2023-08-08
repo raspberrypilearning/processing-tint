@@ -2,7 +2,7 @@ Se você estiver adicionando imagens ao seu projeto, poderá usar `tint()` para 
 
 Passar uma cor para `tint()` permite você alterar as cores de qualquer imagem desenhada depois dela. As imagens parecerão ter uma luz da cor que você escolheu brilhando nelas.
 
-A função `no_tint()` para desativar `tint()` quando você terminar com ela.
+A função `no_tint()` serve para desativar `tint()` quando você terminar com ela.
 
 Este exemplo adiciona uma `tint()` verde a ambas as imagens.
 
