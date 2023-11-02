@@ -1,10 +1,10 @@
-If you are adding images to your project you can use `tint()` to change the colour of the image.
+Jeśli dodajesz obrazy do swojego projektu, możesz użyć `tint()`, aby zmienić kolor obrazu.
 
-Passing a colour to `tint()` lets you change the colours of any image you draw after it. The images will look like they have a light of the colour you chose shining on them.
+Przekazanie koloru do `tint()` pozwala zmienić kolory dowolnego obrazu, który narysujesz po nim. Obrazy będą wyglądać tak, jakby świeciło na nich światło w wybranym przez Ciebie kolorze.
 
-The `no_tint()` function to turn `tint()` off when you’re finished with it.
+Funkcja `no_tint()` wyłącza funkcję `tint()`, kiedy skończysz z nią pracować.
 
-This example adds a green `tint()` to both images.
+Ten przykład dodaje zielony `tint()` do obu obrazów.
 
 --- code ---
 ---
@@ -15,9 +15,9 @@ language: python
 
 --- /code ---
 
-![The output area showing a rocket and planet with both tinted](images/all_tint.png)
+![Wyjściowy obraz przedstawiający zabarwioną zarówno rakietę, jak i planetę](images/all_tint.png)
 
-This example adds a green `tint()` to the first image then removes it using `no_tint()` before the second image is drawn.
+Ten przykład dodaje zielony `tint()` do pierwszego obrazu, a następnie usuwa go za pomocą `no_tint()` przed narysowaniem drugiego obrazu.
 
 --- code ---
 ---
@@ -28,5 +28,5 @@ language: python
 
 --- /code ---
 
-![The output area showing a tinted rocket and a planet without tint](images/some_tint.png)
+![Wyjściowy obraz przedstawiający zabarwioną rakietę i planetę bez zabarwienia](images/some_tint.png)
 
