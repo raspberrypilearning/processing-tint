@@ -1,6 +1,6 @@
-Si vas a añadirle imágenes a tu proyecto, puedes usar `tint()` para cambiar el color de la imagen.
+Si vas a añadirle imágenes a tu proyecto, puedes usar `tint()` para cambiarle el color.
 
-Pasar un color a `tint()` te permite cambiar los colores de cualquier imagen que dibujes después. Parecerá como si las imágenes tuviesen una luz que brilla del color que elegiste.
+Pasar un color por `tint()` te permite cambiar los colores de cualquier imagen que dibujes después. Parecerá como si las imágenes tuviesen una luz que brilla del color que elegiste.
 
 La función `no_tint()` desactiva `tint()` cuando hayas terminado de usarla.
 
